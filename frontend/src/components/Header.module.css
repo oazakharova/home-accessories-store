@@ -12,7 +12,7 @@
 }
 
 .logo {
-  background-color: #535353;
+  background-color: #704f32;
   padding: 4px;
 }
 
@@ -117,7 +117,7 @@
 
 .cartQuantity {
   position: absolute;
-  background-color: #535353;
+  background-color: #704f32;
   border-radius: 50%;
   color: white;
   right: -8px;
