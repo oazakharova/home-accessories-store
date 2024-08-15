@@ -13,7 +13,8 @@
 
 .logo {
   background-color: #704f32;
-  padding: 4px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .logo a {

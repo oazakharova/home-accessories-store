@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className={`${styles.headerWrap} container`}>
-      <div className={styles.logo}>
+      <div className={`${styles.logo} grechen-fuemen-regular`}>
         <Link to="/">Home Accessories Store</Link>
       </div>
       <nav>
