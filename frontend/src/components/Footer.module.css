@@ -2,3 +2,26 @@
   display: flex;
   justify-content: end;
 }
+
+.footerWrap p {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (min-width: 375px) {
+  .footerWrap p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footerWrap p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .footerWrap p {
+    font-size: 30px;
+  }
+}

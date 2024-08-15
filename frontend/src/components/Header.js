@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart } from 'react-icons/fa';
+import { RiShoppingCart2Line, RiHeartLine } from 'react-icons/ri';
 
 import { CartContext } from '../context/CartContext';
 
@@ -16,11 +16,16 @@ const Header = () => {
         <Link to="/">Home Accessories Store</Link>
       </div>
       <nav>
-        <ul>
-          <li>
+        <ul className={styles.cartList}>
+          <li className={styles.cartLi}>
+            <Link to="/favorites">
+              <RiHeartLine />
+            </Link>
+          </li>
+          <li className={styles.cartLi}>
             <Link to="/cart">
-              <FaShoppingCart />
-              Cart ({totalItems})
+              <RiShoppingCart2Line />
+              <span className={styles.cartQuantity}>{totalItems}</span>
             </Link>
           </li>
         </ul>

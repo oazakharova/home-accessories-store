@@ -15,6 +15,12 @@ body {
 
 #root {
   display: grid;
-  grid-template-rows: minmax(100px, 1fr) 1fr minmax(100px, 1fr);
+  grid-template-rows: 70px 1fr 70px;
   min-height: 100vh;
+}
+
+@media (min-width: 1440px) {
+  #root {
+    grid-template-rows: 150px 1fr 150px;
+  }
 }

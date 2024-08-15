@@ -1,2 +1,156 @@
 .headerWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1440px) {
+  .headerWrap {
+    margin: 40px auto;
+  }
+}
+
+.logo {
+  background-color: orange;
+  padding: 4px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+@media (min-width: 375px) {
+  .logo a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 425px) {
+  .logo a {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo a {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo a {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .logo a {
+    font-size: 52px;
+  }
+}
+
+.cartList {
+  display: flex;
+}
+
+.cartLi {
+  list-style-type: none;
+}
+
+.cartLi:not(:last-child) {
+  margin-right: 15px;
+}
+
+.cartLi a {
+  color: #535353;
+  position: relative;
+}
+
+.cartLi a svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 375px) {
+  .cartLi a svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cartLi a svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cartLi a svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cartLi a svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .cartLi a svg {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.cartQuantity {
+  position: absolute;
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  right: -8px;
+  bottom: 15px;
+  font-size: 12px;
+  padding: 0px 5px;
+}
+
+@media (min-width: 768px) {
+  .cartQuantity {
+    font-size: 16px;
+    padding: 0px 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cartQuantity {
+    bottom: 22px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cartQuantity {
+    bottom: 28px;
+    font-size: 20px;
+    padding: 0 8px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .cartQuantity {
+    bottom: 32px;
+    font-size: 28px;
+    padding: 0 10px;
+  }
 }
