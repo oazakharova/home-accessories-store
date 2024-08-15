@@ -1,0 +1,53 @@
+.socialLinksWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialLinksWrap a {
+  color: #535353;
+}
+
+.socialLinksWrap a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.socialLinksWrap a svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 375px) {
+  .socialLinksWrap a svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .socialLinksWrap a svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .socialLinksWrap a svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .socialLinksWrap a svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .socialLinksWrap a svg {
+    width: 56px;
+    height: 56px;
+  }
+}

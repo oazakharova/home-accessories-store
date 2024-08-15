@@ -10,7 +10,7 @@ import SocialLinks from '../components/SocialLinks';
 
 const Home = () => {
   return (
-    <div className={`${styles.homeWrap} container`}>
+    <div className={`${styles.homeWrap}`}>
       <WelcomeInfo />
       <Categories />
       <SpecialOffers />

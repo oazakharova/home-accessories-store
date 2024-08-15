@@ -12,7 +12,7 @@
 }
 
 .logo {
-  background-color: orange;
+  background-color: #535353;
   padding: 4px;
 }
 
@@ -117,7 +117,7 @@
 
 .cartQuantity {
   position: absolute;
-  background-color: orange;
+  background-color: #535353;
   border-radius: 50%;
   color: white;
   right: -8px;
