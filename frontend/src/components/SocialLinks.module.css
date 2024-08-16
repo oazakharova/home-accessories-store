@@ -1,11 +1,5 @@
-.socialLinksWrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .socialLinksWrap a {
-  color: #535353;
+  color: #704f32;
 }
 
 .socialLinksWrap a:not(:last-child) {
