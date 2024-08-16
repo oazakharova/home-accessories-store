@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "name": "tea pair matte",
+    "image": "data/images/farfor-chaynaya-para-matte.webp",
+    "category": "porcelain",
+    "subcategory": "tea pair",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 2,
+    "name": "teapot matte",
+    "image": "data/images/farfor-chaynik-matte.webp",
+    "category": "porcelain",
+    "subcategory": "teapot",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 3,
+    "name": "plate matte",
+    "image": "data/images/farfor-tarelka-matte.webp",
+    "category": "porcelain",
+    "subcategory": "plate",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 4,
+    "name": "vase dune",
+    "image": "data/images/farfor-vaza-dune.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": "dune",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 5,
+    "name": "vase fluid",
+    "image": "data/images/farfor-vaza-fluid.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": "fluid",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 6,
+    "name": "vase matte",
+    "image": "data/images/farfor-vaza-matte.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 7,
+    "name": "vase wave",
+    "image": "data/images/farfor-vaza-volna.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 8,
+    "name": "vase wave 2",
+    "image": "data/images/farfor-vaza-volna-2.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 9,
+    "name": "vase white dune",
+    "image": "data/images/farfor-vaza-white-dune.webp",
+    "category": "porcelain",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 10,
+    "name": "lamp white",
+    "image": "data/images/mebel-lampa-belaya.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 11,
+    "name": "lamp mantu",
+    "image": "data/images/mebel-lampa-mantu.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 12,
+    "name": "lamp green",
+    "image": "data/images/mebel-lampa-zelenaya.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 13,
+    "name": "table blue",
+    "image": "data/images/mebel-stol-blue.webp",
+    "category": "furniture",
+    "subcategory": "table",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 14,
+    "name": "coffee table imperator",
+    "image": "data/images/mebel-stol-kofeynyi-imperator.webp",
+    "category": "furniture",
+    "subcategory": "coffee table",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 15,
+    "name": "coffee table noir",
+    "image": "data/images/mebel-stol-kofeynyi-noir.webp",
+    "category": "furniture",
+    "subcategory": "coffee table",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 16,
+    "name": "lamp concrete",
+    "image": "data/images/mebel-svetilnik-concrete.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+
+  {
+    "id": 17,
+    "name": "lamp concrete 2",
+    "image": "data/images/mebel-svetilnik-concrete-2.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 18,
+    "name": "lamp cactus",
+    "image": "data/images/mebel-svetilnik-kaktus.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 19,
+    "name": "goblet cream x2",
+    "image": "data/images/steklo-bokal-kremanka-x2.webp",
+    "category": "glass",
+    "subcategory": "goblet",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 20,
+    "name": "teapot glass",
+    "image": "data/images/steklo-chaynik.webp",
+    "category": "glass",
+    "subcategory": "teapot",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 21,
+    "name": "carafe glass",
+    "image": "data/images/steklo-grafin-steklyannyi.webp",
+    "category": "glass",
+    "subcategory": "carafe",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 22,
+    "name": "bowl with spoon",
+    "image": "data/images/steklo-piala-s-lozgkoy.webp",
+    "category": "glass",
+    "subcategory": "bowl",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 23,
+    "name": "cup blue",
+    "image": "data/images/steklo-stakan-golyboi.webp",
+    "category": "glass",
+    "subcategory": "cup",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 24,
+    "name": "cup pink",
+    "image": "data/images/steklo-stakan-rozovyi.webp",
+    "category": "glass",
+    "subcategory": "cup",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 25,
+    "name": "vase grey",
+    "image": "data/images/steklo-vaza-seraya.webp",
+    "category": "glass",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 26,
+    "name": "vase blum",
+    "image": "data/images/steklo-vaza-steklyannaya-blum.webp",
+    "category": "glass",
+    "subcategory": "vase",
+    "collection": "blum",
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 27,
+    "name": "glass vase",
+    "image": "data/images/steklo-vaza-v-chekhle.webp",
+    "category": "glass",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 28,
+    "name": "rug marshmallow",
+    "image": "data/images/tekstil-pled-belyi-zefir.webp",
+    "category": "textile",
+    "subcategory": "rug",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 29,
+    "name": "rug pumpum",
+    "image": "data/images/tekstil-pled-pumpum.webp",
+    "category": "textile",
+    "subcategory": "rug",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 30,
+    "name": "rug rond",
+    "image": "data/images/tekstil-pled-rond.webp",
+    "category": "textile",
+    "subcategory": "rug",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 31,
+    "name": "pillow abstrakt",
+    "image": "data/images/tekstil-podushka-abstrakt.webp",
+    "category": "textile",
+    "subcategory": "pillow",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 32,
+    "name": "pillow camel",
+    "image": "data/images/tekstil-podushka-camel.webp",
+    "category": "textile",
+    "subcategory": "pillow",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 33,
+    "name": "pillow puffi",
+    "image": "data/images/tekstil-podushka-puffi.webp",
+    "category": "textile",
+    "subcategory": "pillow",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 34,
+    "name": "tablecloth flax",
+    "image": "data/images/tekstil-skatert-len.webp",
+    "category": "textile",
+    "subcategory": "tablecloth",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 35,
+    "name": "tablecloth nude",
+    "image": "data/images/tekstil-skatert-nude.webp",
+    "category": "textile",
+    "subcategory": "tablecloth",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  },
+  {
+    "id": 36,
+    "name": "tablecloth green",
+    "image": "data/images/tekstil-skatert-zelenaya.webp",
+    "category": "textile",
+    "subcategory": "tablecloth",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100
+  }
+]
