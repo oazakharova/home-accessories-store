@@ -3,35 +3,9 @@ import { Link } from 'react-router-dom';
 
 import styles from './Categories.module.css';
 import ProductCard from './ProductCard';
-import { fetchProducts } from '../utils/api';
 
-const Categories = () => {
-  const [products, setProducts] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadProducts = async () => {
-      try {
-        const data = await fetchProducts();
-
-        const categorySet = new Set();
-        data.forEach((item) => categorySet.add(item.category));
-
-        setCategories([...categorySet]);
-        setProducts(data);
-        setError(null);
-      } catch (err) {
-        console.error('Error fetching products:', err);
-        setError('Failed to load products. Please try again later.');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadProducts();
-  }, []);
+const Categories = ({ products, loading, error }) => {
+  const categories = [...new Set(products.map((product) => product.category))];
 
   return (
     <section className={`${styles.categoriesWrap} container `}>
