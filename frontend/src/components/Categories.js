@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from './Categories.module.css';
+import { ProductsContext } from '../context/ProductsContext';
 import ProductCard from './ProductCard';
 
-const Categories = ({ products, loading, error }) => {
+const Categories = () => {
+  const { products, loading, error } = useContext(ProductsContext);
   const categories = [...new Set(products.map((product) => product.category))];
 
   return (
-    <section className={`${styles.categoriesWrap} container `}>
+    <section className={`${styles.categoriesWrap} container mb`}>
       <h2 className={`grechen-fuemen-regular sectionTitle`}>Categories</h2>
       {loading && <div className={styles.message}>Loading...</div>}
       {error && <div className={styles.message}>{error}</div>}
