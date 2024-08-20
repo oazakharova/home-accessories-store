@@ -359,5 +359,137 @@
     "collection": null,
     "price": 10.99,
     "quantity": 100
+  },
+  {
+    "id": 37,
+    "name": "cup matte",
+    "image": "data/images/farfor-kruzhka-matte.webp",
+    "category": "porcelain",
+    "subcategory": "cup",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 38,
+    "name": "gravy boat matte",
+    "image": "data/images/farfor-sousnik-matte.webp",
+    "category": "porcelain",
+    "subcategory": "gravy boat",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 39,
+    "name": "plate matte",
+    "image": "data/images/farfor-bludo-matte.webp",
+    "category": "porcelain",
+    "subcategory": "plate",
+    "collection": "matte",
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 40,
+    "name": "box orange",
+    "image": "data/images/mebel-shkatulka-orange.webp",
+    "category": "furniture",
+    "subcategory": "box",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 41,
+    "name": "small box orange",
+    "image": "data/images/mebel-shkatulka-orange-small.webp",
+    "category": "furniture",
+    "subcategory": "box",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 42,
+    "name": "floor lamp tube",
+    "image": "data/images/mebel-torsher-tube.webp",
+    "category": "furniture",
+    "subcategory": "lamp",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 43,
+    "name": "vase bruno",
+    "image": "data/images/steklo-vaza-bruno.webp",
+    "category": "glass",
+    "subcategory": "vase",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 44,
+    "name": "candlestick ochre",
+    "image": "data/images/steklo-podsvechnik-ohra.webp",
+    "category": "glass",
+    "subcategory": "candlestick",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 45,
+    "name": "cup cannage yellow",
+    "image": "data/images/steklo-stakan-cannage-yellow.webp",
+    "category": "glass",
+    "subcategory": "cup",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 46,
+    "name": "pillow knot",
+    "image": "data/images/tekstil-podushka-uzel.webp",
+    "category": "textile",
+    "subcategory": "pillow",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 47,
+    "name": "pillow eclectic",
+    "image": "data/images/tekstil-podushka-eclectic.webp",
+    "category": "textile",
+    "subcategory": "pillow",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
+  },
+  {
+    "id": 47,
+    "name": "rug blue",
+    "image": "data/images/tekstil-pled-blue-zefir.webp",
+    "category": "textile",
+    "subcategory": "rug",
+    "collection": null,
+    "price": 10.99,
+    "quantity": 100,
+    "isNew": true
   }
 ]

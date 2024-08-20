@@ -39,17 +39,19 @@ const Categories = () => {
       {loading && <div className={styles.message}>Loading...</div>}
       {error && <div className={styles.message}>{error}</div>}
       {categories.length > 0 && (
-        <ul>
+        <ul className={styles.categoriesContainer}>
           {categories.map((category, index) => (
-            <li className={`${styles.categoriesTitle} li`} key={index}>
-              <Link to={`/category/${category.toLowerCase()}`}>{category}</Link>
-              <div className={styles.categoryProducts}>
+            <li className={`${styles.categoryOuterWrap} li mb`} key={index}>
+              <Link to={`/category/${category.toLowerCase()}`}>
+                <h3>{category}</h3>
+              </Link>
+              <ul className={styles.categoryInnerWrap}>
                 {products
                   .filter((product) => product.category === category)
                   .map((product) => (
                     <ProductCard key={product.id} product={product} />
                   ))}
-              </div>
+              </ul>
             </li>
           ))}
         </ul>
