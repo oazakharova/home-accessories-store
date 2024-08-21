@@ -56,6 +56,9 @@ const CartItem = ({ item }) => {
             </div>
           </div>
         </h6>
+        <h6 className={styles.totlItemSum}>
+          Sum: <span>${item.price * item.quantity}</span>
+        </h6>
       </div>
       <button
         className={styles.removeButton}

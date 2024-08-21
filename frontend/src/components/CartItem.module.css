@@ -68,14 +68,19 @@
 }
 
 .cartItemPrice,
-.cartItemQuantity {
+.cartItemQuantity,
+.totlItemSum {
   font-weight: normal;
   margin-bottom: 5px;
   font-size: 1.1rem;
 }
 
+.totlItemSum {
+  margin-top: 30px;
+}
+
 .cartItemName span,
-.cartItemPrice span,
+.totlItemSum span,
 .cartItemQuantity span {
   font-weight: bolder;
 }
@@ -90,6 +95,7 @@
   font-size: 0.75rem;
   height: min-content;
   width: min-content;
+  margin: 0 0 auto auto;
 }
 
 .quantityInput,
