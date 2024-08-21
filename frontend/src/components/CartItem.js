@@ -1,10 +1,20 @@
 import React from 'react';
-import { useCart } from '../context/CartContext';
 
+import { useCart } from '../context/CartContext';
 import styles from './CartItem.module.css';
 
 const CartItem = ({ item }) => {
-  const { removeFromCart } = useCart();
+  const { removeFromCart, updateCartItemQuantity } = useCart();
+
+  const increaseQuantity = () => {
+    updateCartItemQuantity(item.id, item.quantity + 1);
+  };
+
+  const decreaseQuantity = () => {
+    if (item.quantity > 1) {
+      updateCartItemQuantity(item.id, item.quantity - 1);
+    }
+  };
 
   return (
     <li className={`${styles.cartItem} li`}>
@@ -13,7 +23,6 @@ const CartItem = ({ item }) => {
         src={`http://localhost:5000/${item.image}`}
         alt={item.name}
       />
-      {/* <div className={styles.cartItemDetails}> */}
       <div>
         <h5 className={styles.cartItemName}>
           <span>{item.name}</span>
@@ -22,7 +31,30 @@ const CartItem = ({ item }) => {
           Price: <span>${item.price}</span>
         </h6>
         <h6 className={styles.cartItemQuantity}>
-          Quantity: <span>{item.quantity}</span>
+          <div className={styles.cartQuantityOuterWrap}>
+            Quantity:
+            <div className={styles.cartQuantityInnerWrap}>
+              <button
+                className={styles.quantityButton}
+                onClick={decreaseQuantity}
+                disabled={item.quantity === 1}
+              >
+                -
+              </button>
+              <input
+                type="text"
+                className={styles.quantityInput}
+                value={item.quantity}
+                readOnly
+              />
+              <button
+                className={styles.quantityButton}
+                onClick={increaseQuantity}
+              >
+                +
+              </button>
+            </div>
+          </div>
         </h6>
       </div>
       <button
@@ -31,7 +63,6 @@ const CartItem = ({ item }) => {
       >
         x
       </button>
-      {/* </div> */}
     </li>
   );
 };

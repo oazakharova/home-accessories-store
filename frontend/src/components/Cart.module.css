@@ -173,6 +173,18 @@
 
 @media (min-width: 1024px) {
   .totalInfo {
-    /* padding: 10px 130px 30px; */
+    padding: 10px 130px 30px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .totalInfo {
+    padding: 10px 180px 30px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .totalInfo {
+    padding: 10px 250px 30px;
   }
 }
