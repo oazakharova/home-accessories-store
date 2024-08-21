@@ -1,0 +1,25 @@
+.notFoundWrap a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.notFoundTitle {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notFoundImg {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 425px) {
+  .notFoundImg {
+    width: 300px;
+  }
+}
