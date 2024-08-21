@@ -1,0 +1,137 @@
+.cartItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 30px;
+}
+
+.cartItemImg {
+  display: block;
+  height: 140px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+@media (min-width: 425px) {
+  .cartItemImg {
+    height: 160px;
+    width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cartItemImg {
+    height: 200px;
+    width: 160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cartItemImg {
+    height: 240px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cartItemImg {
+    height: 260px;
+    width: 220px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .cartItemImg {
+    height: 300px;
+    width: 260px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .cartItemImg {
+    height: 360px;
+    width: 320px;
+  }
+}
+
+.cartItemName {
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.cartItemPrice,
+.cartItemQuantity,
+.totlItemSum {
+  font-weight: normal;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.totlItemSum {
+  margin-top: 30px;
+}
+
+.cartItemName span,
+.totlItemSum span,
+.cartItemQuantity span {
+  font-weight: bolder;
+}
+
+.removeButton {
+  background-color: #c0a392;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.75rem;
+  height: min-content;
+  width: min-content;
+  margin: 0 0 auto auto;
+}
+
+.quantityInput,
+.quantityButton {
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 1.2rem;
+}
+
+.quantityInput {
+  text-align: center;
+}
+
+.quantityControls {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.quantityButton:first-child {
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.quantityButton:last-child {
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cartQuantityOuterWrap {
+  display: flex;
+}
+
+.cartQuantityInnerWrap {
+  display: flex;
+  margin-left: 10px;
+}
