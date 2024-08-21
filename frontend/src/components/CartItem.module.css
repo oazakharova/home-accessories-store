@@ -1,6 +1,6 @@
 .cartItem {
   display: grid;
-  grid-template-columns: 1fr 2fr 50px;
+  grid-template-columns: 1fr 2fr auto;
   gap: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -12,7 +12,6 @@
   display: block;
   height: 140px;
   width: 100px;
-  margin-right: 10%;
   object-fit: cover;
   object-position: center;
   border-radius: 5px;

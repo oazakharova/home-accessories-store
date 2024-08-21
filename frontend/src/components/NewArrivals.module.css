@@ -4,7 +4,19 @@
 }
 
 .wrap {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100%;
+}
+
+@media (min-width: 375px) {
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 689px) {
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
