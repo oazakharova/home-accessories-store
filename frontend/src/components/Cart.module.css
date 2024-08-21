@@ -1,0 +1,178 @@
+.message {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .message {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .message {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .message {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .message {
+    font-size: 2.2rem;
+  }
+}
+
+.message a,
+.buttonWrap a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.goHomeButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .goHomeButton {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .goHomeButton {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .goHomeButton {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .goHomeButton {
+    font-size: 2rem;
+  }
+}
+
+.goHomeButton span {
+  margin-left: 4px;
+}
+
+.shoppingCartWrap {
+  width: 100%;
+}
+
+.buttonWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.totalSumWrap,
+.totalQuantityWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.totalSumWrap span,
+.totalQuantityWrap span {
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.totalTitle {
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.totalQuantity,
+.totalSum {
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.toBuyButton {
+  background-color: #704f32;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 50px;
+  margin: 20px auto;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  font-size: 12px;
+}
+
+@media (min-width: 375px) {
+  .toBuyButton {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 425px) {
+  .toBuyButton {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .toBuyButton {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .toBuyButton {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .toBuyButton {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .toBuyButton {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainWrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .totalInfo {
+    padding: 10px 60px 30px;
+    background-color: #c0a392;
+    height: max-content;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .totalInfo {
+    /* padding: 10px 130px 30px; */
+  }
+}

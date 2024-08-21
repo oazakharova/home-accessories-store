@@ -4,11 +4,7 @@ import Cart from '../components/Cart';
 import styles from './CartPage.module.css';
 
 const CartPage = () => {
-  return (
-    <div className={styles.cartPageWrap}>
-      <Cart />
-    </div>
-  );
+  return <Cart />;
 };
 
 export default CartPage;

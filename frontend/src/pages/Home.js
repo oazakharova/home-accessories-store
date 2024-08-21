@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <div className={`${styles.homeWrap}`}>
       <WelcomeInfo />
-      <Categories />
       <NewArrivals />
+      <Categories />
       <EmailForm />
       <SocialLinks />
     </div>
