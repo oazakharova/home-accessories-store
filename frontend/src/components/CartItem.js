@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { useCart } from '../context/CartContext';
 import styles from './CartItem.module.css';
@@ -18,11 +19,13 @@ const CartItem = ({ item }) => {
 
   return (
     <li className={`${styles.cartItem} li`}>
-      <img
-        className={styles.cartItemImg}
-        src={`http://localhost:5000/${item.image}`}
-        alt={item.name}
-      />
+      <Link to={`/product/${item.id}`}>
+        <img
+          className={styles.cartItemImg}
+          src={`http://localhost:5000/${item.image}`}
+          alt={item.name}
+        />
+      </Link>
       <div>
         <h5 className={styles.cartItemName}>
           <span>{item.name}</span>

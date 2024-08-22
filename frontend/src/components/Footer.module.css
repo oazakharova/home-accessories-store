@@ -3,6 +3,12 @@
   justify-content: end;
 }
 
+@media (min-width: 1440px) {
+  .headerWrap {
+    margin: 40px auto 10px;
+  }
+}
+
 .footerWrap p {
   text-align: center;
   font-size: 12px;

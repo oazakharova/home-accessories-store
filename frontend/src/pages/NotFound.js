@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { RiArrowLeftLine } from 'react-icons/ri';
 
 import styles from './NotFound.module.css';
 import notFoundGif from '../assets/images/errorGif.gif';
@@ -19,7 +20,12 @@ const NotFound = () => {
         <Link to="/about">About</Link>
       </nav> */}
       <h2>
-        <Link to="/">Go back</Link>
+        <Link to="/">
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <RiArrowLeftLine style={{ marginTop: '4px' }} />
+            <span style={{ marginLeft: '5px' }}>Go back</span>
+          </div>
+        </Link>
       </h2>
     </div>
   );
