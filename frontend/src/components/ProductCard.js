@@ -18,11 +18,13 @@ const ProductCard = ({ product }) => {
 
   return (
     <li className={styles.productCard}>
-      <img
-        className={styles.productImg}
-        src={`http://localhost:5000/${product.image}`}
-        alt={product.name}
-      />
+      <Link to={`/product/${product.id}`}>
+        <img
+          className={styles.productImg}
+          src={`http://localhost:5000/${product.image}`}
+          alt={product.name}
+        />
+      </Link>
       <h5 className={styles.productName}>{product.name}</h5>
       <h6 className={styles.productPrice}>Price: ${product.price}</h6>
       {/* <button onClick={handleAddToCart} className={styles.productButton}>
@@ -33,8 +35,12 @@ const ProductCard = ({ product }) => {
           <Link to="/cart">Go to cart </Link>
         </button>
       ) : (
-        <button onClick={handleAddToCart} className={styles.productButton}>
-          Add to cart
+        <button
+          onClick={handleAddToCart}
+          className={styles.productButton}
+          disabled={product.quantity === 0}
+        >
+          {product.quantity > 0 ? 'Add to cart' : 'Out of stock'}
         </button>
       )}
       {product.isNew && <div className={styles.isNew}>NEW</div>}

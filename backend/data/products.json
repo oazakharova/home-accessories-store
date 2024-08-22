@@ -7,6 +7,8 @@
     "subcategory": "tea pair",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -17,6 +19,8 @@
     "subcategory": "teapot",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -27,7 +31,9 @@
     "subcategory": "plate",
     "collection": "matte",
     "price": 10.99,
-    "quantity": 100,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0,
     "isNew": true
   },
   {
@@ -38,6 +44,8 @@
     "subcategory": "vase",
     "collection": "dune",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -49,6 +57,8 @@
     "subcategory": "vase",
     "collection": "fluid",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -60,6 +70,8 @@
     "subcategory": "vase",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -70,7 +82,9 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
-    "quantity": 100,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0,
     "isNew": true
   },
   {
@@ -81,6 +95,8 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -91,6 +107,8 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -102,7 +120,9 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
-    "quantity": 100,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0,
     "isNew": true
   },
   {
@@ -113,6 +133,8 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -123,6 +145,8 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -133,7 +157,9 @@
     "subcategory": "table",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 14,
@@ -143,6 +169,8 @@
     "subcategory": "coffee table",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -153,6 +181,8 @@
     "subcategory": "coffee table",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -164,6 +194,8 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
 
@@ -175,6 +207,8 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -185,7 +219,9 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 19,
@@ -195,6 +231,8 @@
     "subcategory": "goblet",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -205,6 +243,8 @@
     "subcategory": "teapot",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -215,7 +255,9 @@
     "subcategory": "carafe",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 22,
@@ -225,6 +267,8 @@
     "subcategory": "bowl",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -235,6 +279,8 @@
     "subcategory": "cup",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -245,6 +291,8 @@
     "subcategory": "cup",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -255,6 +303,8 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -265,6 +315,8 @@
     "subcategory": "vase",
     "collection": "blum",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -276,6 +328,8 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -286,6 +340,8 @@
     "subcategory": "rug",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -297,7 +353,9 @@
     "subcategory": "rug",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 30,
@@ -307,6 +365,8 @@
     "subcategory": "rug",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -317,6 +377,8 @@
     "subcategory": "pillow",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -327,7 +389,9 @@
     "subcategory": "pillow",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 33,
@@ -337,6 +401,8 @@
     "subcategory": "pillow",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -348,6 +414,8 @@
     "subcategory": "tablecloth",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -359,6 +427,8 @@
     "subcategory": "tablecloth",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -369,6 +439,8 @@
     "subcategory": "tablecloth",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -379,6 +451,8 @@
     "subcategory": "cup",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -390,6 +464,8 @@
     "subcategory": "gravy boat",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -400,6 +476,8 @@
     "subcategory": "plate",
     "collection": "matte",
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -410,6 +488,8 @@
     "subcategory": "box",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -421,7 +501,9 @@
     "subcategory": "box",
     "collection": null,
     "price": 10.99,
-    "quantity": 100
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
+    "quantity": 0
   },
   {
     "id": 42,
@@ -431,6 +513,8 @@
     "subcategory": "lamp",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -441,6 +525,8 @@
     "subcategory": "vase",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -452,6 +538,8 @@
     "subcategory": "candlestick",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -463,6 +551,8 @@
     "subcategory": "cup",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -473,6 +563,8 @@
     "subcategory": "pillow",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100,
     "isNew": true
   },
@@ -484,6 +576,8 @@
     "subcategory": "pillow",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   },
   {
@@ -494,6 +588,8 @@
     "subcategory": "rug",
     "collection": null,
     "price": 10.99,
+    "shortDescription": "Lorem ipsum dolor",
+    "fullDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit sed, sed do eiusmod tempor incididunt ut labore et",
     "quantity": 100
   }
 ]
